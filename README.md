@@ -1,3 +1,11 @@
+---
+
+Modified Upstream Repo to use fpp -ni (non-interactive)
+by default. Such change is needed since my bashrc file invokes fish. 
+If run fpp in interactive mode, bash would automatically drop into fish. (junjuew)
+
+---
+
 # Tmux fpp
 
 Plugin wrapper around [Facebook PathPicker](http://facebook.github.io/PathPicker/).
